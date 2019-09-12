@@ -1,0 +1,184 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: White;
+}
+a:hover {
+    color: gray;
+}
+.border-item {
+    padding-top: 2rem;
+    border-bottom: 1rem solid #d35656;
+    margin-bottom: 1rem;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    background-color: #d35656;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    height: 5.6rem;
+
+
+
+}
+.nav-left a{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.75rem;
+    
+}
+.home-link h1{
+    padding-top: 1rem;
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    padding: 0.75rem;
+    margin-left: 2rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+
+    
+}
+.nav-right a {
+    padding: 0 1rem;
+    font-size: 0.75rem;
+}
+
+.home-link h1 {
+    margin-left: 1rem;
+}
+
+/* Section A */
+.section-a {
+    position: relative;
+    background: url('../img/speedingtrain.jpg') no-repeat bottom center/cover;
+    width: 100%;
+    
+}
+.section-a-wrapper {
+    display: grid;
+    margin-top: 9rem;
+    grid-template-columns: 1fr 3fr;
+    gap: 2rem;
+    height: 360px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+.dex-photo img {
+    height:360px;
+    margin-bottom: -0.25rem;
+}
+.section-a-text h1, h2, p {
+    text-align: center;
+    height: 33%;
+}
+.section-a-text {
+    margin-left: -2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.section-a-text h1 {
+    font-size: 3rem;
+    text-emphasis: bold;
+
+}
+.section-a-text h2 {
+    font-size: 1.25rem;
+    padding-top: 1.5rem;
+}
+.section-a-text p{
+    font-size: 0.8rem;
+}
+
+/* Section B */
+.section-b-about{
+    padding-bottom: 1rem;
+}
+
+/* Section C */
+
+.section-c .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 0.5rem;
+    padding: 0 1rem;
+    border-bottom: 0.25rem solid #d35656;
+    border-top: 0.25rem solid #d35656;
+    background-color: #e6a1a1;
+}
+
+.section-c .gallery img {
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+
+
+    
+}
+
+/* Section D */
+
+
+.contact-links ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding-left: 1rem;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.contact-links ul li {
+    height: 100px;
+    list-style: none;
+    align-self: center;
+    justify-self: center;
+
+    
+}
+
+.contact-links ul li a {
+    color: black;
+    
+}
+
+.contact-links ul li a img {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+/* Footer */
+.footer-section{
+    background-color: rgb(41, 40, 40);
+    font-size: 0.75rem;
+    color: darkgray;
+    text-align: center;
+    padding: 0.1rem;
+    border-top: 3px darkgray solid;
+    width:100%;
+}
+
